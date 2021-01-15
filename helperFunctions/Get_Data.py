@@ -46,9 +46,9 @@ def num2date(dateNum,isLeap,year):
     datestring = day+","+month+","+year
     return datestring
 #############
-
-api_key     = "1Ha4ZxImwHAq6aGrQ8kkpXbtdHjDloR1d0AZVdh3CbjcOZthk8HocSQFY8W01M2v"
-api_secret  = "lEQht2ZIrDmArS8vozV2qbWmg5BgBnnQzq7xYIQmyH5GZUSMEAdRLVLHfu1vEIza"
+#IMPORTANT put your api key here
+api_key     = "binance api key"
+api_secret  = "binance api secret"
 
 client=Client(api_key,api_secret)
 
